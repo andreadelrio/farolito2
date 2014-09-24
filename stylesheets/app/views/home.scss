@@ -1,0 +1,47 @@
+#seccion_1 {
+	.container-fluid {
+	background-image: url(../assets/img/laptop_home-05.png);
+	height: 643px;
+  background-size: cover;
+	}
+	ul {
+		li {
+			float: right;
+			padding-left: 21px;
+			a {
+				display: block;
+				color: white;
+				text-decoration: none;
+			}
+		}
+	}
+	.row {
+		.col-md-6 {
+			padding: 35px 70px;
+			img {
+				width: 208px;
+			}
+			a {
+				background: #3ab6d3;
+				border-radius: 16px;
+				color: white;
+				padding: 11px 20px;
+				font-size: 15px;
+				border: 2px solid white;
+				text-decoration: none;
+			}
+		}
+	}
+}
+
+#ingresar {
+	background: rgba(255,255,255,0.4);
+	padding: 5px 18px;
+	border-radius: 18px;
+	border: 2px solid white;
+	margin-top: 18px;
+}
+
+#mensaje {
+	color: #94d0e0;
+}
