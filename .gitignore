@@ -2,3 +2,5 @@
 /system/expressionengine/config/
 .htaccess
 .sass-cache
+assets/img/
+assets/img
