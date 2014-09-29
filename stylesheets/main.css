@@ -207,10 +207,10 @@ th {
 
 html {
   font-size: 10px;
-  -webkit-tap-highlight-color: rgba(0, 0, 0, 0); }
+  -webkit-tap-highlight-color: transparent; }
 
 body {
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "futura-pt", Helvetica, Arial, sans-serif;
   font-size: 14px;
   line-height: 1.42857;
   color: #65686a;
@@ -2109,7 +2109,6 @@ input[type="button"].btn-block {
 
 @-ms-viewport {
   width: device-width; }
-
 .visible-xs, .visible-sm, .visible-md, .visible-lg {
   display: none !important; }
 
@@ -5667,6 +5666,55 @@ body {
 
 #mensaje {
   color: #94d0e0; }
+
+#seccion_2 .container-fluid {
+  background-image: url(../assets/img/fondo_seccion_2.png);
+  height: 643px;
+  background-size: cover;
+  color: white; }
+  #seccion_2 .container-fluid .row h3.title_demuestra_tus_habilidades {
+    margin-top: 118px;
+    margin-bottom: -81px;
+    font-family: sans-serif;
+    font-size: 32px; }
+  #seccion_2 .container-fluid .row {
+    margin-top: 12px; }
+    #seccion_2 .container-fluid .row .col-md-4.text-center {
+      width: 238px;
+      margin-right: 99px;
+      margin-left: 104px;
+      margin-top: 86px; }
+      #seccion_2 .container-fluid .row .col-md-4.text-center h2 {
+        font-size: 58px; }
+
+#seccion_5 .container-fluid {
+  background-image: url(../assets/img/laptop.png);
+  height: 1000px;
+  background-size: cover; }
+  #seccion_5 .container-fluid .row .col-sm-8 {
+    border: 1px solid black;
+    background-color: white; }
+    #seccion_5 .container-fluid .row .col-sm-8 .row {
+      border-bottom: 2px dotted #898b8e; }
+    #seccion_5 .container-fluid .row .col-sm-8 h2 {
+      color: #898b8e; }
+  #seccion_5 .container-fluid .row .col-sm-8.hoja {
+    padding: 130px; }
+  #seccion_5 .container-fluid .row p {
+    color: #898b8e; }
+  #seccion_5 .container-fluid .row .button {
+    margin-top: -38px; }
+  #seccion_5 .container-fluid a#ingresar {
+    display: block;
+    background-color: white;
+    border: 2px solid;
+    width: 99px; }
+  #seccion_5 .container-fluid h2.text-center {
+    margin-top: -57px;
+    margin-bottom: 22px; }
+  #seccion_5 .container-fluid h4 {
+    text-decoration: underline;
+    color: #2B8BBA; }
 
 #seccion_3 {
   background: #EFF9FB; }
